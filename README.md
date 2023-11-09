@@ -62,3 +62,17 @@ Creare un secondo componente AppHero, che visualizza un jumbotron.
   ```
 9. apri il link-->Local: (indirizzo link) click+ctrl
 10. per arrestare terminale ctrl+C
+
+opzionale -- per pulire terminale
+```sh
+    clear
+```
+
+# pulizia scaffolding
+
+- apro `App.vue` e cancello tutto e riscrivo codice con i mio codice modalità 'options'
+- apro cartella componets e la svuoto (cancello tutti i file)
+- apro assets e cancello tutto e creo cartella `styles` e una `img`, e sposto `main.css` in styles (creazione cartelle opzionale)
+''meglio mettere img in public e quella di gestione sfondi in assets''
+- cambio percorso in `main.js` per il file css
+- cancello tutto il contenuto di `main.css`

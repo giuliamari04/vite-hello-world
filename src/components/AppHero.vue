@@ -32,7 +32,7 @@
 
 <style lang="css" scoped>
     header{
-       background-image: url(src/assets/img/jonatan-pie-3l3RwQdHRHg-unsplash.jpg);
+       background-image: url(../assets/img/jonatan-pie-3l3RwQdHRHg-unsplash.jpg);
        background-size:100%;
        background-repeat: no-repeat;
        background-position:top ;
