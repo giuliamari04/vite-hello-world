@@ -3,7 +3,7 @@
   <AppHero />
 
   <main class="d-flex  justify-content-center">
-    <h1 class=" mt-5 my-bg-white">{{ title }}</h1>
+    <h1 class=" mt-5">{{ title }}</h1>
   </main>
 
 </template>
@@ -29,7 +29,7 @@ import AppHero from './components/AppHero.vue'
 
 
 
-<style lang="css">
+<style lang="css" scoped>
 main{
   text-align: center;
   height: 60vh;
@@ -37,7 +37,7 @@ main{
   background: rgb(23,97,131);
   background: linear-gradient(90deg, rgba(23,97,131,1) 9%, rgba(41,166,168,1) 17%, rgba(32,131,85,1) 35%, rgba(32,123,162,1) 58%, rgba(37,170,98,1) 68%, rgba(19,85,117,1) 81%, rgba(11,89,123,1) 94%, rgba(5,38,71,1) 100%);
 }
-.my-bg-white{
+h1{
   width: 50%;
   padding: 10px;
   height:fit-content;
@@ -45,7 +45,7 @@ main{
   background-color: rgba(255, 255, 255, 0.61);
   animation: mymove 5s infinite;
 }
-.my-bg-white:hover{
+h1:hover{
   transform: scale(1.2);
 }
 
